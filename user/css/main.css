@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+    font-family: sans-serif;
+}
+
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: #323232;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="email"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    background: darkblue;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.loginbox a{
+    color: #fff;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+/* REGISTRO */
+
+.registerbox{
+    width: 320px;
+    height: 550px;
+    background: #323232;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    cursor: pointer;
+}
+
+.registerbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.registerbox input[type="text"], input[type="email"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.registerbox input[type="submit"]{
+    border: none;
+    outline: none;
+    background: darkblue;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.registerbox a{
+    color: #fff;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.registerbox button{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: absolute;
+    top: -60px;
+    left: calc(45% - 50px);
+    cursor: pointer;
+    background: #0a0a0a;
+    border: none;
+    outline: none;
+    color: #fff;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KatlerWeb</title>
+    <link rel="stylesheet" href="css/login_style.css">
+    <link rel="icon" href="images/katler_logo1.png">
+    <script src="Scripts/chat.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="content">
+                <div class="entrar">
+                    <h1>Entrar</h1>
+                    <input type="text" name="" id="entrar-email" placeholder="Nome da conta">
+                    <input type="email" name="" id="entrar-senha" placeholder="Email">
+                    <input type="submit" id="entrar" onclick="entrar();" value="Entrar">
+                </div>
+                <div class="cadastrar">
+                    <h1>Criar conta</h1>
+                    <input type="text" name="" id="nome" placeholder="Nome de usuário" autocomplete="off" maxlength="30">
+                    <input type="email" name="" id="email" placeholder="Email" autocomplete="off" maxlength="40">
+                    <!--<input type="password" name="" id="senha" placeholder="Senha">-->
+                    <input type="submit" id="cadastrar" onclick="cadastrar();" value="Cadastrar">
+                    <button onclick="signIn()" id="googleLogin">Entrar com Google</button>
+                </div>
+            </div>
+        </div>
+        <svg width="0rem" height="11.25rem">
+            <path fill="#fff" d="M0, 274c0, 0, 195.28-174, 579.28-124s580.147-76.408,736-108C1463.28,12,1920,0,1920,0v304H0V274z"/>
+        </svg>
+    </header>
+    <!--<div class="self">
+        <h3>Created By: Web Codian</h3>
+    </div>-->
+    <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase.js"></script>
+    <script src="Scripts/firebase-messaging.js"></script>
+    <script src="Scripts/firebase.init.js"></script>
+</body>
+</html>

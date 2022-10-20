@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+header{
+    /*background: linear-gradient(to right, #2bafef, #1737c0);
+    background: url('kat-fundo1.png');*/
+    background: linear-gradient(to right, #682ca6, #233d9d);
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.header{
+    padding-left: 13vw;
+}
+
+.content{
+    float: center;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+p{
+    margin: 1.25rem 0 1.5625rem;
+    letter-spacing: 0.0625rem;
+    text-transform: capitalize;
+}
+
+#nome{
+    background: rgba(56, 56, 56, 0.75);
+    outline: none;
+    border: #fff;
+    border-radius: 25px;
+    font-size: 0.875rem;
+    margin-bottom: 10px;
+    height: 5vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 35vh;
+    color: #fff;
+}
+
+#email{
+    background: rgba(56, 56, 56, 0.75);
+    outline: none;
+    border: #fff;
+    border-radius: 25px;
+    font-size: 0.875rem;
+    margin-bottom: 10px;
+    height: 5vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 35vh;
+    color: #fff;
+}
+
+#entrar-email{
+    background: rgba(56, 56, 56, 0.75);
+    outline: none;
+    border: #fff;
+    border-radius: 25px;
+    font-size: 0.875rem;
+    margin-bottom: 10px;
+    height: 5vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 35vh;
+    color: #fff;
+}
+
+#senha{
+    background: rgba(56, 56, 56, 0.75);
+    outline: none;
+    border: #fff;
+    border-radius: 25px;
+    font-size: 0.875rem;
+    margin-bottom: 10px;
+    height: 5vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 35vh;
+    color: #fff;
+}
+
+#entrar-senha{
+    background: rgba(56, 56, 56, 0.75);
+    outline: none;
+    border: #fff;
+    border-radius: 25px;
+    font-size: 0.875rem;
+    margin-bottom: 10px;
+    height: 5vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 35vh;
+    color: #fff;
+}
+
+#entrar{
+    border-radius: 3.125rem;
+    background: #363636;
+    letter-spacing: 0.125rem;
+    border: none;
+    width: 10.625rem;
+    padding: 0.9375rem 1.875rem;
+    color: #fff;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    transition: all .6s ease;
+    outline: none;
+}
+
+#entrar:hover{
+    cursor: pointer;
+    color: #fff;
+    background: gray;
+    transition: .5s;
+}
+
+.header .content .cadastrar{
+    display: grid;
+    padding-bottom: 10px;
+    padding-left: 300px;
+}
+
+#cadastrar{
+    border-radius: 3.125rem;
+    background: #363636;
+    letter-spacing: 0.125rem;
+    border: none;
+    width: 14.625rem;
+    padding: 0.9375rem 1.875rem;
+    color: #fff;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s ease;
+    outline: none;
+}
+
+#cadastrar:hover{
+    cursor: pointer;
+    color: #fff;
+    background: gray;
+}
+
+#googleLogin{
+    border-radius: 3.125rem;
+    background: #242424;
+    letter-spacing: 0.125rem;
+    margin-top: 10px;
+    margin-left: -35px;
+    border: none;
+    width: 19.625rem;
+    padding: 0.9375rem 1.875rem;
+    color: #fff;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s ease;
+    outline: none;
+}
+
+#googleLogin:hover{
+    cursor: pointer;
+}
+
+#googleLogin img{
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+    padding-right: 20px;
+}
+
+.self{
+    margin-top: 28rem;
+}
+
+h3{
+    color: #444;
+    text-align: center;
+    font-weight: lighter;
+    letter-spacing: 1.25rem;
+    text-transform: uppercase;
+}

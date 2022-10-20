@@ -1,0 +1,157 @@
+﻿body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    color: black;
+}
+
+body {
+    font-family: 'Segoe UI', Helvetica Nenu, Helvetica, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.top {
+    height: 100%;
+    width: 100%;
+    background-color: #010029;
+    position: fixed;
+    z-index: -1;
+}
+
+.chatbox {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+.profile-pic {
+    height: 40px;
+    width: 40px;
+}
+
+.form-rounded {
+    border-radius: 1rem;
+}
+
+.friend-pic {
+    height: 50px;
+    width: 50px;
+    margin-left: -10px
+}
+
+.name {
+    font-weight: 400;
+    color: #fff;
+}
+
+.under-name {
+    font-size: 12px;
+    line-height: 15px;
+    max-height: 15px;
+}
+
+.icon {
+    font-size: 20px;
+    color: #9CA1A3;
+    cursor: pointer;
+}
+
+.chat-pic {
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+}
+
+.receive {
+    clear: both;
+    float: left;
+    color: #fff;
+    margin-left: -15px;
+    /*padding: 5px 8px 5px;*/
+    position: relative;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.sent {
+    color: #fff;
+    padding: 0px 3px;
+}
+
+.time {
+    font-size: 10px;
+    color: #9CA1A3;
+    margin-top: 3%;
+    margin-left: 1%;
+}
+
+.card {
+    height: 100vh;
+}
+
+#messages {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: #1a1a1a;
+}
+
+#lstChat {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.dropdown-toggle::before {
+    display: none !important;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+#emoji {
+    position: absolute;
+    top: -30vh;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0,0,0,0.23) 0px 3px 6px;
+}
+
+    #emoji #myTabContent {
+        height: 20vh;
+    }
+
+#myTabContent a {
+    text-decoration: none;
+}
+
+#notification {
+    background: linear-gradient(to left, #682ca6, #233d9d);
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -10%;
+    font-size: 12px;
+    width: 30%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-left: -12%;
+}
+
+@media (max-width: 767px){
+  h2 .mt-3 {
+    font-size: 2.5rem;
+  }
+}
+
+.onlineStatus{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #16e316;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 #16e316;
+}
+.onlineStatus.off{
+    background: gray;
+    box-shadow: 0 0 0 0;
+}

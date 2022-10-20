@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.erro{
+    min-height: 100vh;
+    background: url('kat-fundo1.png');
+}
+.erro h2{
+    font-size: 16em;
+    color: #fff;
+    margin-left: 400px;
+    padding-top: 90px;
+}
+.erro h4{
+    font-size: 2em;
+    color: #fff;
+    margin-left: 200px;
+}
+.erro a{
+    border-radius: 3.125rem;
+    background: #fff;
+    letter-spacing: 0.125rem;
+    margin-top: 10px;
+    margin-left: 530px;
+    border: none;
+    width: 10.625rem;
+    padding: 0.9375rem 1.875rem;
+    color: #000;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s ease;
+    outline: none;
+}
